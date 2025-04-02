@@ -1,0 +1,222 @@
+{
+  "items": [
+    {
+      "text": "Getting Started",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "get-started",
+          "isIndex": true
+        },
+        {
+          "text": "Navigation",
+          "path": "get-started/navigation.md"
+        },
+        {
+          "text": "Searching",
+          "path": "get-started/searching.md"
+        }
+      ]
+    },
+    {
+      "text": "Customers",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "customers",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Orders",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "orders",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Calendar",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "calendar",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Dispatch",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "dispatch",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Mix Management",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "mix-management",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Trucks",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "trucks",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Setup",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "setup",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Invoicing",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "invoicing",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Business Rules",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "business-rules",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "People",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "people",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Other Config",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "other-config",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Pricing",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "pricing",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Communications",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "comms",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Batch Interface",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "batch-interface",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "reports",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Admin",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "admin",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Background Jobs",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "background-jobs",
+          "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Customisation",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "custom",
+          "isIndex": true
+        },
+        {
+          "text": "Hardware",
+          "path": "custom/vicmix/hardware.md"
+        },
+        {
+          "text": "Network",
+          "path": "custom/vicmix/network.md"
+        },
+        {
+          "text": "Automated Tasks",
+          "path": "custom/vicmix/automated.md"
+        },
+        {
+          "text": "Scheduled Tasks",
+          "path": "custom/vicmix/scheduled.md"
+        },
+        {
+          "text": "External Interfaces",
+          "path": "custom/vicmix/external-interfaces.md"
+        }
+      ]
+    }
+  ]
+}
