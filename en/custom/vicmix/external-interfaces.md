@@ -1,6 +1,6 @@
 ## External Intefaces
 
-| Tool                               | Info                                                                                                                                                  | Plan           | Cellero                                      | Origin |
+| Tool / Task                        | Info                                                                                                                                                  | Plan           | Cellero  Implementation                                    | Origin |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|---------------------------------------------|--------|
 | Confirm Booking Alert              | Automatically identifies unconfirmed orders and sends an SMS notification to customers, prompting them to confirm their orders proactively.          | Included      | App_ScheduledTask_Minutely_010_Confirm_Booking_Alert | CBA    |
 | Credit Card Payments Reconciliation | Automatically reconciles credit card transactions with the ANZ bank account. A console allows operators to manually resolve exceptions when auto-reconciliation is not possible. |               |                                             | CCP_D  |

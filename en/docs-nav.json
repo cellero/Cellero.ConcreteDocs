@@ -214,7 +214,13 @@
         },
         {
           "text": "External Interfaces",
-          "path": "custom/vicmix/external-interfaces.md"
+          "path": "custom/vicmix/external-interfaces.md",
+          "items": [
+            {
+              "text": "Confirm Booking Alert",
+              "path": "confirm-booking-alter.md"              
+            }
+          ]
         }
       ]
     }
