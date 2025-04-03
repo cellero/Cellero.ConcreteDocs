@@ -26,7 +26,7 @@ The number in the Contact Phone + @redcoal.net is the address used when sending 
 
 ## Output Construction
 The following sql is used for the message construction:  
-```
+````bash
 	,'Plz confirm Order: ' + cast(o.OrderNumber as varchar(16)) 
 		+ ' for: ' + case when ISNULL(o.CashSaleName,'') >'' then o.CashSaleName else c.Name end
 		+ ' qty: ' + CAST(o.Units as varchar(16))
@@ -36,6 +36,7 @@ The following sql is used for the message construction:
 		+ ' to: ' +  o.DeliveryAddressLine1 
 		+ '. Avoid loosing your slot, confirm by 1pm today. Call: VicMix '  + p.Name 
 		+ ' tap: ' + p.Phone
-		+ ' Reply STOP to opt out'
-```
+		+ ' Reply STOP to opt out'  
+````  
+
 
