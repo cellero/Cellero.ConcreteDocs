@@ -12,7 +12,7 @@ App_ScheduledTask_Minutely_010_Confirm_Booking_Alert
 - only sends maximum 1 message per plant per cycle
 - only send once per order 
 - only for up coming orders
-- only if the order has a number int he contact phone
+- only if the order has a number in the contact phone
 
 ## Format
 SMS via redcoal system

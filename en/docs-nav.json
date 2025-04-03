@@ -206,7 +206,31 @@
         },
         {
           "text": "Automated Tasks",
-          "path": "custom/vicmix/automated.md"
+          "path": "custom/vicmix/automated-tasks.md",
+          "items": [
+            {
+              "text": "App_InvoiceBatchProcessing",
+              "path": "custom/vicmix/App_InvoiceBatchProcessing.md",
+              "items": [
+                {
+                  "text": "App_InvoiceBatchProcessing_001_CreateStagingData",
+                  "path": "custom/vicmix/App_InvoiceBatchProcessing_001_CreateStagingData.md"
+                }
+              ]
+            },
+            {
+              "text": "App_InvoiceException",
+              "path": "custom/vicmix/App_InvoiceException.md"
+            },
+            {
+              "text": "App_OrderCreated",
+              "path": "custom/vicmix/App_OrderCreated.md"
+            },
+            {
+              "text": "App_OrderDispatch",
+              "path": "custom/vicmix/App_OrderDispatch.md"
+            }
+          ]
         },
         {
           "text": "Scheduled Tasks",
