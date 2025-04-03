@@ -185,6 +185,10 @@
           "text": "Overview",
           "path": "background-jobs",
           "isIndex": true
+        },
+        {
+          "text": "DoCreditControlProcessing",
+          "path": "DoCreditControlProcessing.md"
         }
       ]
     },
