@@ -253,18 +253,8 @@
           ]
         },
         {
-          "text": "Scheduled Tasks",
-          "path": "custom/vicmix/scheduled.md"
-        },
-        {
           "text": "External Interfaces",
-          "path": "custom/vicmix/external-interfaces.md",
-          "items": [
-            {
-              "text": "Confirm Booking Alert",
-              "path": "custom/vicmix/external-interfaces/confirm-booking-alter.md"
-            }
-          ]
+          "path": "custom/vicmix/external-interfaces.md" 
         }
       ]
     }

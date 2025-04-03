@@ -1,6 +1,7 @@
 # App Automation
 
-The system executes tasks in the background.
+The system enables customised tasks that execute  in the background.  
+
 Some tasks are event based such as:  
 
 - Invoice Batch Processing
@@ -17,5 +18,5 @@ Some tasks are triggered on sccheduled frequency:
 - Daily
 
 
-
+These custom tasks are separate from core background tasks.
 
