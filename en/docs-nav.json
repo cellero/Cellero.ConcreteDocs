@@ -218,7 +218,7 @@
           "items": [
             {
               "text": "Confirm Booking Alert",
-              "path": "custom/vicmix/confirm-booking-alter.md"
+              "path": "vicmix/confirm-booking-alter.md"
             }
           ]
         }
