@@ -234,7 +234,13 @@
             },
             {
               "text": "Minutely",
-              "path": "custom/vicmix/app_automation/App_ScheduledTask_Minutely.md"
+              "path": "custom/vicmix/app_automation/App_ScheduledTask_Minutely.md",
+              "items": [
+                {
+                  "text": "010_Confirm_Booking_Alert",
+                  "path": "custom/vicmix/app_automation/App_ScheduledTask_Minutely_010_Confirm_Booking_Alert.md"
+                }
+              ]
             },
             {
               "text": "30 Minutely",
