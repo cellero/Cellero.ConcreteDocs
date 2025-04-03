@@ -5,6 +5,6 @@ Cellero documentation platform contains all user help for the Cellero Concrete p
  
 
 ## How?
-Use the menu on the left hand side to select the topic
+Use the menu on the left hand side to select the topic.
 
  
