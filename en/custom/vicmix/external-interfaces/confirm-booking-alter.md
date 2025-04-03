@@ -19,7 +19,9 @@ SMS via redcoal system
 
 ## Destination
 Contact Number on Order:  
-![side menu](../images/ordercontact.png)  
+![image](../images/ordercontact.png)  
+ 
+
 The number in the Contact Phone + @redcoal.net is the address used when sending the email
 
 ## Output Construction
