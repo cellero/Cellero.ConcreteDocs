@@ -2,9 +2,9 @@
 
 Cellero documentation platform contains all user help for the Cellero Concrete product.
 
- Dev from local again
+ 
 
 ## Why Cellero Platform?
-The following pages outline why you should use the ABP Platform and how it is used:
+Use the menu on the left hand side to select the topic
 
  
