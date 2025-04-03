@@ -2,7 +2,7 @@
 
 | Tool / Task                        | Info                                                                                                                                                  | Status           |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| [Confirm Booking Alert](external-interfaces/confirm-booking-alter.md) | Automatically identifies unconfirmed orders and sends an SMS notification to customers, prompting them to confirm their orders proactively.          | Included      |
+| [Confirm Booking Alert](app_automation/App_ScheduledTask_Minutely_010_Confirm_Booking_Alert.md) | Automatically identifies unconfirmed orders and sends an SMS notification to customers, prompting them to confirm their orders proactively.          | Included      |
 | Credit Card Payments Reconciliation | Automatically reconciles credit card transactions with the ANZ bank account. A console allows operators to manually resolve exceptions when auto-reconciliation is not possible. |               |
 | Mix Design Management              | Assists with bulk management of mix designs in Calibre. Replaced by Cellero. One of the main reasons we were over budget. This was outside the original quote, but deemed too important not to replace at the outset. | Included      |
 | Concrete Sales Database            | Provides a user console for various business processes, including sales reporting, credit analysis, test data, master data (customers, suppliers, products, pricing), stock control, batch data, truck trip analysis, and cartage. | Included      |
@@ -19,4 +19,6 @@
 | Material Receipt Register          | Tracks materials received at plants, creates RCTI cartage records, and updates Calibre mix prices based on the latest prices paid. Also, automatically feeds incoming stock to the Stock Control System within CSD. | To be included |
 | Send Decorative Alerts to Loader   | Used at the Dandenong plant for decorative loads, sending SMS notifications to loader drivers with material and cumulative quantities so weighing can begin before batching. |               |
 | Shipped Load Alert                 | Sends notifications to customers when concrete for their order is loaded and provides them with an estimated time of arrival.                         |               |
-| Concrete Sales to EXO API          | Facilitates the import of concrete sales data from Calibre to EXO. Replaced by Cellero.                                                               | To be included |
+| Concrete Sales to EXO API          | Facilitates the import of concrete sales data from Calibre to EXO. Replaced by Cellero.     
+| To be included |  
+

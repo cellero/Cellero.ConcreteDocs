@@ -205,31 +205,45 @@
           "path": "custom/vicmix/network.md"
         },
         {
-          "text": "Automated Tasks",
-          "path": "custom/vicmix/automated-tasks.md",
+          "text": "App Automation",
+          "path": "custom/vicmix/app_automation/index.md",
           "items": [
             {
-              "text": "App_InvoiceBatchProcessing",
-              "path": "custom/vicmix/App_InvoiceBatchProcessing.md",
-              "items": [
-                {
-                  "text": "App_InvoiceBatchProcessing_001_CreateStagingData",
-                  "path": "custom/vicmix/App_InvoiceBatchProcessing_001_CreateStagingData.md"
-                }
-              ]
+              "text": "Invoice Batch Processing",
+              "path": "custom/vicmix/app_automation/App_InvoiceBatchProcessing.md"
             },
             {
-              "text": "App_InvoiceException",
-              "path": "custom/vicmix/App_InvoiceException.md"
+              "text": "Invoice Exceptions",
+              "path": "custom/vicmix/app_automation/App_InvoiceException.md"
             },
             {
-              "text": "App_OrderCreated",
-              "path": "custom/vicmix/App_OrderCreated.md"
+              "text": "On Order Created",
+              "path": "custom/vicmix/app_automation/App_OrderCreated.md"
             },
             {
-              "text": "App_OrderDispatch",
-              "path": "custom/vicmix/App_OrderDispatch.md"
-            }
+              "text": "On Order Updated",
+              "path": "custom/vicmix/app_automation/App_OrderUpdated.md"
+            },
+            {
+              "text": "On Order Dispatch",
+              "path": "custom/vicmix/app_automation/App_OrderDispatch.md"
+            },
+            {
+              "text": "Reporting Datasets",
+              "path": "custom/vicmix/app_automation/App_ReportDataSet.md"
+            },
+            {
+              "text": "Minutely",
+              "path": "custom/vicmix/app_automation/App_ScheduledTask_Minutely.md"
+            },
+            {
+              "text": "30 Minutely",
+              "path": "custom/vicmix/app_automation/App_ScheduledTask_30Minutely.md"
+            },
+            {
+              "text": "Hourly",
+              "path": "custom/vicmix/app_automation/App_ScheduledTask_Hourly.md"
+            } 
           ]
         },
         {
