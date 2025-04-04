@@ -1,6 +1,6 @@
 # DoTruckProcessing  
 
-Regular job for truck GPS processing.
+Regular job for truck `GPS` processing.
 
 ## Frequency  
 **Minutely**  
