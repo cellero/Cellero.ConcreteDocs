@@ -13,10 +13,10 @@ App_CustomerDebtorTransactions%
 
 
 
-
-## App_CustomerDebtorTransactions_100_Processing  
+## Stored Procedures
+### App_CustomerDebtorTransactions_100_Processing  
 ### Logic Summary  
 
-1. **Opening Balances** – Retrieves initial debtor balances.  
-2. **Processed Transactions** – Imports processed transactions (Spend, Payment, Credit, Refund, Journal) from EXO.  
-3. **Unprocessed Transactions** – Captures unprocessed transactions (Spend by Docket) from Cellero.  
+1. **Opening Balances**  Retrieves initial debtor balances.  
+2. **Processed Transactions**  Imports processed transactions (Spend, Payment, Credit, Refund, Journal) from EXO.  
+3. **Unprocessed Transactions**  Captures unprocessed transactions (Spend by Docket) from Cellero.  

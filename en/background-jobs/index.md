@@ -15,7 +15,7 @@ Unlike App Automation, system automated tasks are not customisable.
 | Task Name                                   | Frequency  |
 |---------------------------------------------|------------|
 | [DoCreditControlProcessing](DoCreditControlProcessing.md)                   | Hourly     |
-| DoEmailProcessing                           | Minutely   |
-| DoEmailInvoiceBatchTruckRechargeTruckVersion | Minutely   |
-| DoOrderProcessing                           | Minutely   |
-| DoTruckProcessing                           | Minutely   |
+| [DoEmailProcessing](DoEmailProcessing.md)                           | Minutely   |
+| [DoEmailInvoiceBatchTruckRechargeTruckVersion](DoEmailInvoiceBatchTruckRechargeTruckVersion.md) | Minutely   |
+| [DoOrderProcessing](DoOrderProcessing.md)                           | Minutely   |
+| [DoTruckProcessing](DoTruckProcessing.md)                           | Minutely   |
