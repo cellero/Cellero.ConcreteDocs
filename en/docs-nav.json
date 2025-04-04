@@ -189,6 +189,22 @@
         {
           "text": "DoCreditControlProcessing",
           "path": "background-jobs/DoCreditControlProcessing.md"
+        },
+        {
+          "text": "DoEmailInvoiceBatchTruckRecharge",
+          "path": "background-jobs/DoEmailInvoiceBatchTruckRechargeTruckVersion.md"
+        },
+        {
+          "text": "DoEmailProcessing",
+          "path": "background-jobs/DoEmailProcessing.md"
+        },
+        {
+          "text": "DoOrderProcessing",
+          "path": "background-jobs/DoOrderProcessing.md"
+        },
+        {
+          "text": "DoTruckProcessing",
+          "path": "background-jobs/DoTruckProcessing.md"
         }
       ]
     },
