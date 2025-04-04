@@ -18,5 +18,5 @@ Some tasks are triggered on sccheduled frequency:
 - Daily
 
 
-These custom tasks are separate from core [background tasks](../../background-jobs/index.md) .
+These custom tasks are separate from core background tasks.
 
