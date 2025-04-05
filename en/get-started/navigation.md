@@ -1,6 +1,6 @@
 # Navigation
 
-This topic shows you how to navigate around the system
+Mastering System Navigation: A Quick Guide
 
 ## Side Menu
 

@@ -105,6 +105,14 @@
           "text": "Overview",
           "path": "business-rules",
           "isIndex": true
+        },
+        {
+          "text": "Edits",
+          "path": "business-rules/edits.md"
+        },
+        {
+          "text": "Actions",
+          "path": "business-rules/actions.md"
         }
       ]
     },
