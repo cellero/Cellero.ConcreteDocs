@@ -99,24 +99,6 @@
       ]
     },
     {
-      "text": "Business Rules",
-      "items": [
-        {
-          "text": "Overview",
-          "path": "business-rules",
-          "isIndex": true
-        },
-        {
-          "text": "Edits",
-          "path": "business-rules/edits.md"
-        },
-        {
-          "text": "Actions",
-          "path": "business-rules/actions.md"
-        }
-      ]
-    },
-    {
       "text": "People",
       "items": [
         {
@@ -143,6 +125,24 @@
           "text": "Overview",
           "path": "pricing",
           "isIndex": true
+        }
+      ]
+    },
+    {
+      "text": "Business Rules",
+      "items": [
+        {
+          "text": "Overview",
+          "path": "business-rules",
+          "isIndex": true
+        },
+        {
+          "text": "Edits",
+          "path": "business-rules/edits.md"
+        },
+        {
+          "text": "Actions",
+          "path": "business-rules/actions.md"
         }
       ]
     },
@@ -277,12 +277,12 @@
             {
               "text": "Hourly",
               "path": "custom/vicmix/app_automation/App_ScheduledTask_Hourly.md"
-            } 
+            }
           ]
         },
         {
           "text": "External Interfaces",
-          "path": "custom/vicmix/external-interfaces.md" 
+          "path": "custom/vicmix/external-interfaces.md"
         }
       ]
     }
