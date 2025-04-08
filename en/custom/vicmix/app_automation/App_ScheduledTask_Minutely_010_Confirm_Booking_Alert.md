@@ -24,7 +24,7 @@ Contact Number on Order:
 
 The number in the Contact Phone + @redcoal.net is the address used when sending the email
 
-## Linkied Stored Proc
+## Linked Stored Proc
 
 ````bash
 App_ScheduledTask_Minutely_010_Confirm_Booking_Alert
