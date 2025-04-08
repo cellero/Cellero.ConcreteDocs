@@ -24,6 +24,56 @@ Contact Number on Order:
 
 The number in the Contact Phone + @redcoal.net is the address used when sending the email
 
+## Criteria
+The following sql is used for the message construction:
+
+### First Pass
+Get orders that meet the criteria
+````bash
+Where 	
+	o.DeliveryDateTime >= DATEADD(hour,-1 ,GETDATE())
+	and DeliveryDateTime <= DATEADD(hour,12 ,GETDATE())
+	and os.Code in ('TBC','RFD')
+	and o.JobsSent = 0
+	and o.IsOrderComplete = 0
+	and o.ContactPhone != ''
+	and o.SendNotifications = 1
+	-- business hours only
+	and DATEPART(hour,GETDATE()) between 9 and 17
+````
+
+### Second Pass  
+Remove where notification has already been sent:
+````bash
+Delete from #results
+from 
+	#results r
+	inner join AppNotificationLogs nl
+	on nl.OrderId = r.OrderId
+where
+	nl.MessagePurpose = 'Confirm_Booking_Alert'
+````
+
+### Third Pass  
+Get the top 2 for each plant so that only two messages per plant per minute are sent out:
+````bash
+Update r
+Set PlantSequence = i.rn
+From 
+	#results r
+	inner join 
+		(Select	
+			id
+			,ROW_NUMBER() OVER(PARTITION BY PlantCode ORDER BY DeliveryDateTime) as rn
+		from 
+			#results
+		) i 
+	on i.Id = r.Id
+
+-- get top 2 only for each plant
+Delete from #results where PlantSequence > 2
+````
+
 ## Output Construction
 The following sql is used for the message construction:  
 ````bash

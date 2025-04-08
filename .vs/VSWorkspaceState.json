@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\en"
+    "\\en",
+    "\\en\\background-jobs",
+    "\\en\\background-jobs\\images",
+    "\\en\\business-rules",
+    "\\en\\custom\\images",
+    "\\en\\custom\\vicmix\\external-interfaces",
+    "\\en\\custom\\vicmix\\images",
+    "\\en\\get-started"
   ],
+  "SelectedNode": "\\en\\get-started\\navigation.md",
   "PreviewInSolutionExplorer": false
 }
