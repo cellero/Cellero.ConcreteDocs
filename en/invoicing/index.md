@@ -19,27 +19,43 @@ Once exported, the invoice batch has a status of **Fully Processed**.
 - [Exceptions](invoice-exceptions.md)
 - [Accounting Periods](invoice-accounting-periods.md)
 
+  
+````bash 
+Completed Orders (Pending Invoice Status)
+          |
+          v
+   Review Order Transactions
+       /    |    \
+Approve   Update   Hold
+   |        |       |
+   v        v       v
+Approved Orders     Orders On Hold
+          |
+          v
+Select Approved Orders
+          |
+          v
+Create Invoice Batch
+          |
+          v
+Invoice Batch (New Status)
+          |
+          v
+Final Review and Checks
+          |
+          v
+ Are there Exceptions?
+    /          \
+  Yes           No
+  |              |
+Manage         Export to
+Exceptions     Accounting System
+  |              |
+  v              v
+(Back to      Status: Fully
+Final Review)  Processed
+                   |
+                   v
+        Assign to Accounting Period
 
-```mermaid
-flowchart TD
-    A[Completed Orders (Pending Invoice Status)] --> B{Review Order Transactions}
-    B -->|Approve| C[Approved for Invoicing]
-    B -->|Update| B
-    B -->|Hold| D[Set to Hold Status]
-
-    C --> E[Select Approved Orders]
-    E --> F[Create Invoice Batch]
-    F --> G{Invoice Batch Status}
-    G -->|New| H[Final Review and Checks]
-    H --> I{Exceptions?}
-
-    I -->|Yes| J[Manage Exceptions]
-    J --> H
-
-    I -->|No| K[Export to Accounting System]
-    K --> L[Status: Fully Processed]
-    L --> M[Assign to Accounting Period]
-
-
-
- 
+ ````

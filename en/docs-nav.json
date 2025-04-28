@@ -95,6 +95,10 @@
           "text": "Overview",
           "path": "invoicing",
           "isIndex": true
+        },
+        {
+          "text": "Invoice Review",
+          "path": "invoicing/invoice-review.md"
         }
       ]
     },
