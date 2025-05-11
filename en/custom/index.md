@@ -1,3 +1,4 @@
 # Overview
-TODO
+
+This section covers custom setup for VICMIX
 
