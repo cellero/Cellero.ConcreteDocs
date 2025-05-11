@@ -1,4 +1,6 @@
-# Overview
+# Invoicing
+
+## Overview
 The invoicing process involves reviewing completed orders, normally from the previous day.  
 Completed orders have a **Pending Invoice** status.
 
@@ -13,7 +15,7 @@ Initially, invoice batches have a **New** status, allowing for a final review an
 
 Once exported, the invoice batch has a status of **Fully Processed**.
 
-# Stages
+## Stages
 - [Invoice Review](invoice-review.md)
 - [Invoice Batches](invoice-batches.md)
 - [Exceptions](invoice-exceptions.md)

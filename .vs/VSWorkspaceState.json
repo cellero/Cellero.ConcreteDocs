@@ -2,14 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\en",
-    "\\en\\background-jobs\\images",
-    "\\en\\custom",
+    "\\en\\background-jobs",
     "\\en\\custom\\images",
-    "\\en\\custom\\vicmix",
     "\\en\\custom\\vicmix\\app_automation",
     "\\en\\custom\\vicmix\\external-interfaces",
-    "\\en\\custom\\vicmix\\images"
+    "\\en\\custom\\vicmix\\images",
+    "\\en\\invoicing"
   ],
-  "SelectedNode": "\\en\\custom\\vicmix\\app_automation\\App_ScheduledTask_Minutely_010_Confirm_Booking_Alert.md",
+  "SelectedNode": "\\en\\invoicing\\index.md",
   "PreviewInSolutionExplorer": false
 }

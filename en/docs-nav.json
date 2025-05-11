@@ -229,13 +229,9 @@
           "isIndex": true
         },
         {
-          "text": "Hardware",
-          "path": "custom/vicmix/hardware.md"
-        },
-        {
-          "text": "Network",
-          "path": "custom/vicmix/network.md"
-        },
+          "text": "Server",
+          "path": "custom/vicmix/server.md"
+        },        
         {
           "text": "App Automation",
           "path": "custom/vicmix/app_automation/index.md",
